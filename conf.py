@@ -21,7 +21,7 @@ BLOG_AUTHOR = "Peter Tiegs"  # (translatable)
 BLOG_TITLE = "Elegantly Kludgey"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "https://netpete.github.io"
+SITE_URL = "https://netpete.github.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://netpete.github.io"
