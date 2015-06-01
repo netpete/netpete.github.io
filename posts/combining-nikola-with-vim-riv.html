@@ -2,17 +2,24 @@
 <html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="description" content="Records of my development">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Elegantly Kludgey | Elegantly Kludgey</title>
-<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="assets/css/rst.css" rel="stylesheet" type="text/css">
-<link href="assets/css/code.css" rel="stylesheet" type="text/css">
-<link href="assets/css/colorbox.css" rel="stylesheet" type="text/css">
-<link href="assets/css/theme.css" rel="stylesheet" type="text/css">
-<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
-<link rel="canonical" href="https://netpete.github.io/index.html">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/2-in-1-setup-or-how-to-get-away-with-only-32gb.html" type="text/html">
+<title>Combining Nikola with Vim Riv | Elegantly Kludgey</title>
+<link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/colorbox.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+<link rel="canonical" href="https://netpete.github.io/posts/combining-nikola-with-vim-riv.html">
+<!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><meta name="author" content="Peter Tiegs">
+<link rel="prev" href="getting-started-with-github-and-nikola.html" title="Getting Started with Github and Nikola" type="text/html">
+<link rel="next" href="2-in-1-setup-or-how-to-get-away-with-only-32gb.html" title="2 in 1 Setup or How to get away with only 32GB" type="text/html">
+<meta property="og:site_name" content="Elegantly Kludgey">
+<meta property="og:title" content="Combining Nikola with Vim Riv">
+<meta property="og:url" content="https://netpete.github.io/posts/combining-nikola-with-vim-riv.html">
+<meta property="og:description" content="I use Riv (RestructuredText in Vim) for all of my note taking.  I especially use the Scratch feature to create automatically time stamped entries.  The main reason I use Riv is that I can have all of ">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2015-03-26T08:22:40-07:00">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -37,18 +44,24 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
 <li>
-<a href="archive.html">Archive</a>
+<a href="../archive.html">Archive</a>
                 </li>
 <li>
-<a href="categories/index.html">Tags</a>
+<a href="../categories/index.html">Tags</a>
                 </li>
 <li>
-<a href="rss.xml">RSS feed</a>
+<a href="../rss.xml">RSS feed</a>
 
                 
             </li>
 </ul>
-<ul class="nav navbar-nav navbar-right"></ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+    <a href="combining-nikola-with-vim-riv.rst" id="sourcelink">Source</a>
+    </li>
+
+                
+            </ul>
 </div>
 <!-- /.navbar-collapse -->
     </div>
@@ -59,35 +72,18 @@
         <div class="row">
             
             
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">Combining Nikola with Vim Riv</a></h1>
 
-<div class="postindex">
-    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/2-in-1-setup-or-how-to-get-away-with-only-32gb.html" class="u-url">2 in 1 Setup or How to get away with only 32GB</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">Peter Tiegs</span></p>
-            <p class="dateline"><a href="posts/2-in-1-setup-or-how-to-get-away-with-only-32gb.html" rel="bookmark"><time class="published dt-published" datetime="2015-05-27T10:35:51-07:00" title="2015-05-27 10:35">2015-05-27 10:35</time></a></p>
+            <p class="dateline"><a href="#" rel="bookmark"><time class="published dt-published" datetime="2015-03-26T08:22:40-07:00" itemprop="datePublished" title="2015-03-26 08:22">2015-03-26 08:22</time></a></p>
+            
+        <p class="sourceline"><a href="combining-nikola-with-vim-riv.rst" id="sourcelink">Source</a></p>
+
         </div>
-    </header><div class="e-content entry-content">
-    <div>
-<p>I recently decided to pick up a Windows machine and I really liked the idea of having a <a class="reference external" href="http://www.intel.com/content/www/us/en/homepage.html">2 in 1</a>.  So I did my research and purchased an <a class="reference external" href="http://us.acer.com/ac/en/US/content/series/aspireswitch11">Acer</a> Switch 11.  Overall I have been very happy with this little laptop/tablet.  Knowing that I would be using this for development I got the model with a 500GB HD in the keyboard.  Unfortunately this model only came with 32GB on the primary disk.</p>
-<p>My end goal was to be able to install <a class="reference external" href="http://www.visualstudio.com">Visual Studio Community Edition</a> on this machine for use in the Laptop mode, but not necessarily in tablet mode.</p>
-<p>The first thing I tried to do was to remove the recovery partition.  For some reason the OEM version of Windows provided with the Acer Switch did not allow for that.  Every time I tried to remove the partition it would prevent the OS from booting.  A quick Google search showed that this was a fairly common problem.  Fortunately I had a retail version Windows, so I hooked up a USB DVD drive and started from scratch.  I was able to create single partition for the OS and start the install.  Everything worked great...</p>
-<p>...Almost, when the retail version of Windows booted the touch screen was no longer working.  So back to the Acer site and a quick download and install of the Intel platform drivers got everything back to working.  I still did not have Visual Studio installed.</p>
-<p>My first attempted at installing Visual Studio to the D: drive failed.  While the primary interface was installed on the D: drive the bulk of the other content is still installed on the C: drive.  So I still need more space.  Next I added in a 64GB micro SD card and Robocopy'd my users directory to it.  To do this I created a local user with admin privileges and logged in as him. Then I removed the original home directory, and created a link to the home directory on the F: drive.</p>
-<pre class="code text"><a name="rest_code_1f5235f634144df392ba8509aa1071ff-1"></a>robocopy /COPYALL /MIR /XJ c:\Users\Peter f:\Users\Peter
-<a name="rest_code_1f5235f634144df392ba8509aa1071ff-2"></a>rd /S /Q c:\Users\Peter
-<a name="rest_code_1f5235f634144df392ba8509aa1071ff-3"></a>mklink /J c:\Users\Peter f:\Users\Peter
-</pre>
-<p>When that was done I logged back in as myself, removed the local user and everything is working again.  But I still don't have a working version of Visual Studio.  I needed more space.  Then I downloaded <a class="reference external" href="http://windirstat.info/">WinDirStat</a> to analyze what was eating the most space.  It was the Visual Studio Package Cache in the ProgramData directory.  I had read that this was not something that should be removed and that it was needed for Visual Studio to work.  So I applied the same process that I used with my home directory to the package cache.  Robocopy the files to the D: drive, remove the files from the C: drive and link the D: drive files back to C: drive.  Now I was able to repair the installation of Visual Studio and fire it up.</p>
-<p>I did this process two more times with the Windows SDKs and Microsoft Kits and now I have a healthy 3GB of the 32GB on the C: drive my users directory has over 50GB left on in and Visual Studio work when I am docked with the Keyboard and actually need it.</p>
-<p>I was always an extensive user of the <code>ln -s</code> soft links in Posix operating system.  I am not sure when <code>mklink</code> got added to the OS but I really appreciate the capabilities it provides.</p>
-</div>
-    </div>
-    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/combining-nikola-with-vim-riv.html" class="u-url">Combining Nikola with Vim Riv</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">Peter Tiegs</span></p>
-            <p class="dateline"><a href="posts/combining-nikola-with-vim-riv.html" rel="bookmark"><time class="published dt-published" datetime="2015-03-26T08:22:40-07:00" title="2015-03-26 08:22">2015-03-26 08:22</time></a></p>
-        </div>
-    </header><div class="e-content entry-content">
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
 <p>I use <a class="reference external" href="https://github.com/Rykka/riv.vim">Riv</a> (RestructuredText in Vim) for all of my note taking.  I especially use the Scratch feature to create automatically time stamped entries.  The main reason I use Riv is that I can have all of my notes in a repository (Mercurial or Git).   Riv bills itself as working well with Nikola and Pelican so I decided I would try it out.</p>
 <p>My Goal was to continue to use RIV for my note taking and use <a class="reference external" href="http://getnikola.com">Nikola</a> to render the site to share with teammates.</p>
@@ -136,28 +132,15 @@
 </pre>
 </div>
     </div>
-    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/getting-started-with-github-and-nikola.html" class="u-url">Getting Started with Github and Nikola</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">Peter Tiegs</span></p>
-            <p class="dateline"><a href="posts/getting-started-with-github-and-nikola.html" rel="bookmark"><time class="published dt-published" datetime="2015-03-24T12:39:55-07:00" title="2015-03-24 12:39">2015-03-24 12:39</time></a></p>
-        </div>
-    </header><div class="e-content entry-content">
-    <div>
-<p>I finally took the time to get set up with <a class="reference external" href="https://pages.github.com/">Github</a> pages and <a class="reference external" href="http://getnikola.com/">Nikola</a> blogging.</p>
-<p>I am still a little curious how the git_hub deploy task works, and why it rquires multiple branches.</p>
-<p>I am looking forward to trying out the <a class="reference external" href="http://ipython.org/">ipython</a> notebook support and I would like to see if I can created some <a class="reference external" href="http://pydoit.org/">doit</a> tasks for publishing to <a class="reference external" href="https://www.tumblr.com/">Tumblr</a> and the <a class="reference external" href="https://www.jivesoftware.com/">Jive</a> platform.</p>
+    <aside class="postpromonav"><nav><ul class="pager">
+<li class="previous">
+                <a href="getting-started-with-github-and-nikola.html" rel="prev" title="Getting Started with Github and Nikola">Previous post</a>
+            </li>
+            <li class="next">
+                <a href="2-in-1-setup-or-how-to-get-away-with-only-32gb.html" rel="next" title="2 in 1 Setup or How to get away with only 32GB">Next post</a>
+            </li>
+        </ul></nav></aside></article>
 </div>
-    </div>
-    </article>
-</div>
-
-
-
-
-
-
-
-        </div>
         <!--End of body content-->
 
         <footer>
@@ -168,7 +151,7 @@
 </div>
 
 
-            <script src="assets/js/jquery.min.js"></script><script src="assets/js/bootstrap.min.js"></script><script src="assets/js/moment-with-locales.min.js"></script><script src="assets/js/fancydates.js"></script><script src="assets/js/jquery.colorbox-min.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+            <script src="../assets/js/jquery.min.js"></script><script src="../assets/js/bootstrap.min.js"></script><script src="../assets/js/moment-with-locales.min.js"></script><script src="../assets/js/fancydates.js"></script><script src="../assets/js/jquery.colorbox-min.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
     moment.locale("");
     fancydates(0, "YYYY-MM-DD HH:mm");
     </script><!-- end fancy dates -->
