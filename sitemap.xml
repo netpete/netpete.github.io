@@ -6,26 +6,26 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://netpete.github.io/2015/index.html</loc>
-  <lastmod>2015-03-26</lastmod>
+  <lastmod>2015-06-01</lastmod>
  </url>
  <url>
   <loc>https://netpete.github.io/archive.html</loc>
-  <lastmod>2015-03-24</lastmod>
+  <lastmod>2015-06-01</lastmod>
  </url>
  <url>
   <loc>https://netpete.github.io/categories/index.html</loc>
-  <lastmod>2015-03-24</lastmod>
+  <lastmod>2015-06-01</lastmod>
  </url>
  <url>
   <loc>https://netpete.github.io/index.html</loc>
-  <lastmod>2015-03-26</lastmod>
+  <lastmod>2015-06-01</lastmod>
  </url>
  <url>
-  <loc>https://netpete.github.io/posts/combining-nikola-with-vim-riv.html</loc>
-  <lastmod>2015-03-26</lastmod>
+  <loc>https://netpete.github.io/posts/2-in-1-setup-or-how-to-get-away-with-only-32gb.html</loc>
+  <lastmod>2015-06-01</lastmod>
  </url>
  <url>
   <loc>https://netpete.github.io/posts/getting-started-with-github-and-nikola.html</loc>
-  <lastmod>2015-03-26</lastmod>
+  <lastmod>2015-06-01</lastmod>
  </url>
 </urlset>
